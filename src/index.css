@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html, body {
+  overflow-x: clip;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root { max-width: 100%; }
+body { overflow-x: clip; }
+
+/* Keep product and duration dropdowns aligned with the dark emerald app theme. */
+select {
+  color-scheme: dark;
+  accent-color: #34d399;
+}
+
+select option {
+  background-color: #020617;
+  color: #f8fafc;
+}
